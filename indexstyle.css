@@ -1,0 +1,30 @@
+.titlay {
+  color: white;
+  font-size: 50;
+  font-family: fantasy;
+  font-style: italic;
+  background-color: grey;
+}
+.capstion {
+  color: red;
+  font-size: 30;
+  font-family: sans-serif;
+}
+.div1 {
+  width: 100%;
+  text-align: center;
+}
+.text1 {
+  color: white;
+  font-family: cursive;
+  text-align: center;
+}
+.text2 {
+  background-color: grey;
+  font-style: italic;
+  font-family: monospace;
+  color: white;
+  font-size: 50;
+  font-family: fantasy;
+  padding: 10px;
+}

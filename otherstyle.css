@@ -1,0 +1,14 @@
+.title1 {
+  font-family: impact;
+  color: white;
+  font-size: 50;
+  background-color: grey;
+}
+.title2 {
+  background-color: grey;
+  font-family: monospace;
+  color: white;
+  font-size: 20;
+  font-family: fantasy;
+  padding: 10px;
+}

@@ -1,3 +1,9 @@
+body {
+  background-image:url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/IevwMJs/videoblocks-low-poly-background-dark-gray_sybsaxouf_thumbnail-full01.png);
+  background-size: 100%;
+  background-attachment: fixed
+}
+
 .titlay {
   color: white;
   font-size: 50;
@@ -25,10 +31,29 @@
 }
 .text2 {
   background-color: grey;
-  font-style: italic;
   font-family: monospace;
   color: white;
-  font-size: 50;
+  font-size: 45;
   font-family: fantasy;
   padding: 10px;
+}
+.article {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin: 10px
+}
+.article-header {
+  font-size: 40px;
+  font-family: cursive;
+  margin: 10px
+}
+.article-title {
+  font-size: 45px;
+  font-family: 'Merriweather', serif;
+  margin: 10px;
+}
+.wrap {
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
 }

@@ -44,7 +44,7 @@ body {
 }
 .article-header {
   font-size: 40px;
-  font-family: cursive;
+  font-family: 'Merriweather', serif;
   margin: 10px
 }
 .article-title {

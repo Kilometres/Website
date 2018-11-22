@@ -15,10 +15,8 @@
   text-align: center;
 }
 .div2 {
-  width: 50%;
-  height: 100%;
-  background: white;
-  text-align: center;
+  margin: 0 auto;
+  width: 1000px
 }
 .text1 {
   color: white;

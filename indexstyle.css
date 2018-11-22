@@ -14,6 +14,12 @@
   width: 100%;
   text-align: center;
 }
+.div2 {
+  width: 50%;
+  height: 100%;
+  background: white;
+  text-align: center;
+}
 .text1 {
   color: white;
   font-family: cursive;

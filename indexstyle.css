@@ -46,15 +46,46 @@ body {
 .article-header {
   font-size: 40px;
   font-family: 'Merriweather', serif;
+  font-size: 30px;
+  font-family: 'Merriweather';
   margin: 10px
 }
 .article-title {
   font-size: 45px;
   font-family: 'Merriweather', serif;
+  font-family: 'Merriweather';
   margin: 10px;
 }
 .wrap {
   width: 60%;
+  width: 70%;
   margin: 0 auto;
   background-color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: grey;
+}
+
+nav {
+  float: right;
+}
+
+nav li {
+  list-style: none;
+  font-size: 30;
+  font-family: serif;
+  display: inline-block;
+  margin-left: 70px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-family: fantasy;
 }

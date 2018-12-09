@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Asap');
 
 * {
   font-family: Asap, sans-serif;
@@ -7,21 +7,52 @@
   box-sizing: border-box;
 }
 
+#name {
+  color: #2e2e2e;
+  font-size: 55px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 body {
   background-color: #282c34;
 }
 
 header {
-padding: 20px;
-background: white;
+  background-color: #f6f6f6;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
-header > h1 {
-  font-family: Asap, sans-serif;
-  font-size: 50px;
-  color: #282c34;
+header > ul {
   text-align: center;
-  transition: 0.3s all ease-in-out
+}
+
+header > ul > li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header > ul > a {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+header > ul > li > a {
+  text-decoration: none;
+  color: #2e2e2e;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#active {
+  text-decoration: underline;
+  color: #2e2e2e;
+  font-size: 45px;
+  font-weight: bold;
 }
 
 .wrap {

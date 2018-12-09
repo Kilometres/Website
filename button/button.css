@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
+* {
+  font-family: 'Asap', sans-serif;
+}
+
+body {
+  background: #2e2e2e;
+}
+
+.btn-1 {
+  border: solid #f6f6f6;
+  background: none;
+  border-radius: 5px;
+  color: #f6f6f6;
+  font-size: 40px;
+}
+
+#dragDiv {
+  position: absolute;
+  border: solid #f6f6f6;
+  width: 5px;
+  height: 50%;
+}

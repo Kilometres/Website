@@ -1,0 +1,77 @@
++@import url('https://fonts.googleapis.com/css?family=Asap');
+
+* {
+  font-family: 'Asap', sans-serif;
+}
+
+body {
+  background: #2e2e2e;
+}
+
+.box-1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  background: none;
+  position: relative;
+  display: block;
+  color: white;
+  font-family: 'Asap', sans-serif;
+  text-decoration: none;
+  margin: 30px 0;
+  border: 2px solid #007fff;
+  padding: 14px 50px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+
+.btn-3,.btn-4 {
+  color: #fff;
+}
+
+.btn-1,.btn-2 {
+  color: #007fff;
+}
+
+.btn-3:hover,.btn-4:hover {
+  color: #007fff;
+}
+
+.btn-1:hover,.btn-2:hover {
+  color: #fff;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #007fff;
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+
+.btn-3::before,.btn-2::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn-1::before,.btn-4::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn-3::before,.btn-4::before{
+  height: 180%;
+}
+.btn-1:hover::before,.btn-2:hover::before{
+  height: 180%;
+}
+.btn-3:hover::before,.btn-4:hover::before{
+  height: 0%;
+}

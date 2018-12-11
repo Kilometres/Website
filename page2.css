@@ -106,9 +106,10 @@ header > ul > li > a {
   color: white;
 }
 
-li {
+.change {
   color: white;
   font-size: 15px;
+  padding: 10px;
 }
 
 a {

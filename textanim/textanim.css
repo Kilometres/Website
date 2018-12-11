@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
+* {
+  font-family: 'Asap', sans-serif;
+}
+
+body {
+  background: #282c34;
+}
+
+.box span {
+  color: #007fff;
+  text-transform: uppercase;
+  display: block;
+}

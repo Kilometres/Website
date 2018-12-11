@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #282c34;
+  background: #272e38;
 }
 
 .box {
@@ -28,7 +28,7 @@ body {
   letter-spacing: 10px;
   margin-bottom: 20px;
   color: #fff;
-  background: #282c34;
+  background: #272e38;
   position: relative;
   animation: text 3s 1;
 }
@@ -40,7 +40,7 @@ body {
 
 @keyframes text {
   0% {
-    color: #282c34;
+    color: #272e38;
     margin-bottom: -40px;
   }
   30% {

@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: #282c34;
+  background-color: #272e38;
 }
 
 header {
@@ -78,7 +78,7 @@ header > ul > li > a {
   margin-bottom: 20px;
   border: none;
   font-size: 20px;
-  background-color: #282c34;
+  background-color: #v;
   color: white;
 }
 
@@ -86,7 +86,7 @@ header > ul > li > a {
   margin-left: 10px;
   border: none;
   font-size: 20px;
-  background-color: #282c34;
+  background-color: #272e38;
   color: white;
 }
 
@@ -94,7 +94,7 @@ header > ul > li > a {
   margin-bottom : 10px;
   border: none;
   font-size: 20px;
-  background-color: #282c34;
+  background-color: #272e38;
   color: white;
 }
 
@@ -102,14 +102,13 @@ header > ul > li > a {
   margin-bottom : 10px;
   border: none;
   font-size: 20px;
-  background-color: #282c34;
+  background-color: #272e38;
   color: white;
 }
 
 li {
   color: white;
   font-size: 15px;
-  padding: 10px;
 }
 
 a {

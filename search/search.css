@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
+* {
+  font-family: "Asap", sans-serif;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #272e38;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box > span {
+  display: block;
+}
+
+.sqr {
+  float: right;
+  width: 70px;
+  height: 70px;
+  background: #007fff;
+  animation: anim3 2s infinite;
+}
+
+
+#sp-1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  animation: anim 2s infinite;
+}
+
+#sp-2 {
+  font-size: 40px;
+  animation: anim2 1s infinite;
+}
+
+@keyframes anim {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: #007fff;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+@keyframes anim2 {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: red;
+    letter-spacing: 5px;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+@keyframes anim3 {
+  0% {
+    transform: rotate(0deg);
+    margin-top: 0;
+  }
+
+  33.33% {
+    transform: rotate(90deg);
+    margin-top: -50;
+  }
+
+  66.66% {
+    transform: rotate(180deg);
+    margin-top: -50;
+  }
+
+  100% {
+    transform: rotate(270deg);
+  }
+}
